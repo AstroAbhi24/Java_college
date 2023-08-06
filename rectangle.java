@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Area{
+class area {
 	public int l,b;
 	public void setDim(int a, int b){
 		this.l = a;
@@ -22,7 +22,7 @@ public class rectangle{
 		a = sc.nextInt();
 		System.out.print("breadth - ");
 		b = sc.nextInt();
-		Area ar = new Area();
+		area ar = new area();
 		ar.setDim(a,b);
 		ar.getArea();
 	}

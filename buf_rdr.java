@@ -20,7 +20,7 @@ class Employee{
 }
 
 public class buf_rdr{
-	public static void main(String[] args)throws IOException{
+	public static void main(String[] args)throws IOException {
 		String name;
 		int age, id;
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
