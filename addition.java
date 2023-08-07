@@ -1,4 +1,4 @@
-class Addit{
+class add_num {
 	public int a,b;
 	public void add() {
 		int s = a+b;
@@ -8,7 +8,7 @@ class Addit{
 
 class addition {
 	public static void main(String[] args){
-		Addit obj = new Addit();
+		add_num obj = new add_num();
 		obj.a = 10;
 		obj.b = 20;
 		obj.add();
